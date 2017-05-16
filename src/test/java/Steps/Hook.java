@@ -18,11 +18,12 @@ public class Hook extends BaseUtil {
 
     @Before
     public void InitializeTest(){
-//        System.setProperty("webdriver.gecko.driver", "lib/geckodriverLinux");
-        System.setProperty("webdriver.gecko.driver", "D:\\executeAutomation\\cucumberProject\\lib\\geckodriverWin.exe");
+//        System.setProperty("webdriver.gecko.driver", "lib/geckodriver");
+        System.setProperty("webdriver.chrome.driver", "lib/chromedriver");
+//        System.setProperty("webdriver.gecko.driver", "D:\\executeAutomation\\cucumberProject\\lib\\geckodriverWin.exe");
 //        System.setProperty("webdriver.chrome.driver", "D:\\executeAutomation\\cucumberProject\\lib\\chromedriverWin.exe");
-        base.Driver = new FirefoxDriver();
-//        Driver = new ChromeDriver();
+//        base.Driver = new FirefoxDriver();
+        base.Driver = new ChromeDriver();
 //
 
     }
