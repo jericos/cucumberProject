@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cucumberProject" target="1.8" />
+      <module name="cucumberProject" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
