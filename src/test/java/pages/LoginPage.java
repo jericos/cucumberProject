@@ -6,9 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * Created by pcasus on 16/05/2017.
- */
 public class LoginPage {
 
     public LoginPage(WebDriver driver){
