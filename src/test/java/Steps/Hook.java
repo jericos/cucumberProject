@@ -24,7 +24,6 @@ public class Hook extends BaseUtil {
 //        System.setProperty("webdriver.chrome.driver", "D:\\executeAutomation\\cucumberProject\\lib\\chromedriverWin.exe");
 //        base.Driver = new FirefoxDriver();
         base.Driver = new ChromeDriver();
-//
 
     }
 
